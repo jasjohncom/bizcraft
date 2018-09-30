@@ -6,7 +6,7 @@ import (
 
 var (
 	logFormat = "%{color}[%{level:.4s}] %{time:15:04:05.000000} %{id:06x} [%{shortpkg}] %{longfunc} -> %{color:reset}%{message}"
-	Log       = logging.MustGetLogger("hercules")
+	Log       = logging.MustGetLogger("bizcraft")
 )
 
 func Start() {
